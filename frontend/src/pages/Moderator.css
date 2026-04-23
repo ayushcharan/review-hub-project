@@ -1,0 +1,123 @@
+/* ===== Moderator Page Styles ===== */
+
+.moderator-filter {
+  padding: 0 0 20px 0;
+}
+
+.moderator-filter label {
+  font-weight: 600;
+}
+
+.moderator-filter .select {
+  width: auto;
+}
+
+/* Empty state */
+.moderator-empty {
+  text-align: center;
+  padding: 40px;
+  color: var(--text-muted);
+  font-size: 16px;
+}
+
+/* Table wrapper */
+.moderator-table-wrap {
+  overflow-x: auto;
+  background: var(--card-bg);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--glass-border);
+  padding: 10px;
+}
+
+.moderator-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+}
+
+.moderator-table thead tr {
+  border-bottom: 1px solid var(--glass-border);
+  color: var(--text-muted);
+}
+
+.moderator-table th,
+.moderator-table td {
+  padding: 16px;
+}
+
+.moderator-table th.actions-col {
+  text-align: right;
+}
+
+.moderator-table tbody tr {
+  border-bottom: 1px solid var(--glass-border);
+  transition: background 0.2s;
+}
+
+.moderator-table tbody tr:hover {
+  background: rgba(16, 185, 129, 0.05);
+}
+
+.moderator-product-id {
+  font-weight: 600;
+  color: var(--primary);
+}
+
+.moderator-comment-cell {
+  max-width: 300px;
+}
+
+.moderator-stars {
+  color: #f59e0b;
+  letter-spacing: 2px;
+}
+
+.moderator-comment-text {
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+/* Status badges */
+.moderator-status {
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.moderator-status.approved {
+  background: rgba(16, 185, 129, 0.2);
+  color: #059669;
+}
+
+.moderator-status.rejected {
+  background: rgba(239, 68, 68, 0.2);
+  color: #b91c1c;
+}
+
+.moderator-status.pending {
+  background: rgba(245, 158, 11, 0.2);
+  color: #b45309;
+}
+
+/* Action buttons */
+.moderator-actions {
+  text-align: right;
+}
+
+.moderator-actions-inner {
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+
+.moderator-actions-inner .btn {
+  padding: 6px 12px;
+  font-size: 12px;
+}
+
+.moderator-delete-btn {
+  background: #ef4444 !important;
+  box-shadow: none !important;
+}

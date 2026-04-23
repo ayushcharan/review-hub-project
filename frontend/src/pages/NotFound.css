@@ -1,0 +1,30 @@
+/* ===== NotFound (404) Page Styles ===== */
+
+.notfound-container {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.notfound-icon {
+  font-size: 120px;
+  margin-bottom: 20px;
+}
+
+.notfound-title {
+  font-family: 'Outfit', sans-serif;
+  font-size: 48px;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+
+.notfound-message {
+  color: var(--text-muted);
+  font-size: 18px;
+  margin-bottom: 40px;
+}
+
+.notfound-home-btn {
+  padding: 14px 32px;
+  font-size: 18px;
+  border-radius: 30px;
+}
